@@ -1,10 +1,10 @@
 <?php
 
-namespace Test\Test;
+namespace LaravelTranslationChecker\LaravelTranslationChecker;
 
 use Illuminate\Support\ServiceProvider;
 
-class TestServiceProvider extends ServiceProvider
+class LaravelTranslationCheckerServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
@@ -14,29 +14,29 @@ class TestServiceProvider extends ServiceProvider
         /*
          * Optional methods to load your package assets
          */
-        // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'test');
-        // $this->loadViewsFrom(__DIR__.'/../resources/views', 'test');
+        // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'laravel-translation-checker');
+        // $this->loadViewsFrom(__DIR__.'/../resources/views', 'laravel-translation-checker');
         // $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
         // $this->loadRoutesFrom(__DIR__.'/routes.php');
 
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/../config/config.php' => config_path('test.php'),
+                __DIR__.'/../config/config.php' => config_path('laravel-translation-checker.php'),
             ], 'config');
 
             // Publishing the views.
             /*$this->publishes([
-                __DIR__.'/../resources/views' => resource_path('views/vendor/test'),
+                __DIR__.'/../resources/views' => resource_path('views/vendor/laravel-translation-checker'),
             ], 'views');*/
 
             // Publishing assets.
             /*$this->publishes([
-                __DIR__.'/../resources/assets' => public_path('vendor/test'),
+                __DIR__.'/../resources/assets' => public_path('vendor/laravel-translation-checker'),
             ], 'assets');*/
 
             // Publishing the translation files.
             /*$this->publishes([
-                __DIR__.'/../resources/lang' => resource_path('lang/vendor/test'),
+                __DIR__.'/../resources/lang' => resource_path('lang/vendor/laravel-translation-checker'),
             ], 'lang');*/
 
             // Registering package commands.
@@ -50,11 +50,11 @@ class TestServiceProvider extends ServiceProvider
     public function register()
     {
         // Automatically apply the package configuration
-        $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'test');
+        $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'laravel-translation-checker');
 
         // Register the main class to use with the facade
-        $this->app->singleton('test', function () {
-            return new Test;
+        $this->app->singleton('laravel-translation-checker', function () {
+            return new LaravelTranslationChecker;
         });
     }
 }

@@ -1,8 +1,8 @@
-# Test
+# laravel translation checker
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/LarsWiegers/Test.svg?style=flat-square)](https://packagist.org/packages/LarsWiegers/Test)
-[![Total Downloads](https://img.shields.io/packagist/dt/LarsWiegers/Test.svg?style=flat-square)](https://packagist.org/packages/LarsWiegers/Test)
-![GitHub Actions](https://github.com/LarsWiegers/Test/actions/workflows/main.yml/badge.svg)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/LarsWiegers/laravel translation checker.svg?style=flat-square)](https://packagist.org/packages/LarsWiegers/laravel translation checker)
+[![Total Downloads](https://img.shields.io/packagist/dt/LarsWiegers/laravel translation checker.svg?style=flat-square)](https://packagist.org/packages/LarsWiegers/laravel translation checker)
+![GitHub Actions](https://github.com/LarsWiegers/laravel translation checker/actions/workflows/main.yml/badge.svg)
 
 This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
 
@@ -11,7 +11,7 @@ This is where your description should go. Try and limit it to a paragraph or two
 You can install the package via composer:
 
 ```bash
-composer require LarsWiegers/Test
+composer require larswiegers/laravel-translation-checker
 ```
 
 ## Usage
@@ -40,7 +40,7 @@ If you discover any security related issues, please email test@test.com instead 
 
 ## Credits
 
--   [TEST_AUTHOR_NAME](https://github.com/TEST_AUTHOR_NAME)
+-   [lars wiegers](https://github.com/lars wiegers)
 -   [All Contributors](../../contributors)
 
 ## License

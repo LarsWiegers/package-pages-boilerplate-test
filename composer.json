@@ -1,17 +1,15 @@
 {
-    "name": "larswiegers/test",
+    "name": "larswiegers/laravel-translation-checker",
     "description": "TEST_PACKAGE_DESCRIPTION",
     "keywords": [
-        "test",
-        "test"
     ],
-    "homepage": "https://github.com/LarsWiegers/Test",
+    "homepage": "https://github.com/larswiegers/laravel-translation-checker",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
-            "name": "TEST_AUTHOR_NAME",
-            "email": "test@email.com",
+            "name": "lars wiegers",
+            "email": "larswiegers@live.nl",
             "role": "Developer"
         }
     ],

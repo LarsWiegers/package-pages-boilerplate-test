@@ -1,13 +1,13 @@
 <?php
 
-namespace Test\Test;
+namespace LaravelTranslationChecker\LaravelTranslationChecker;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * @see \Test\Test\Skeleton\SkeletonClass
  */
-class TestFacade extends Facade
+class LaravelTranslationCheckerFacade extends Facade
 {
     /**
      * Get the registered name of the component.
@@ -16,6 +16,6 @@ class TestFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'test';
+        return 'laravel translation checker';
     }
 }
