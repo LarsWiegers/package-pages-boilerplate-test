@@ -11,7 +11,7 @@
     "authors": [
         {
             "name": "TEST_AUTHOR_NAME",
-            "email": "TEST_AUTHOR_EMAIL",
+            "email": "test@email.com",
             "role": "Developer"
         }
     ],
